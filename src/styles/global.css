@@ -1,0 +1,19 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: unset;
+}
+
+body {
+  display: grid;
+  min-height: 100dvh;
+  place-items: center;
+}
+
+#app {
+  display: contents;
+}
